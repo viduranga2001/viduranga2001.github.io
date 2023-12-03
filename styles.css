@@ -1,0 +1,147 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #80e283; /* Set background color for all pages */
+}
+
+header {
+    background-color: #c3ea97; /* Set background color for header */
+    color: rgb(14, 13, 13); /* Set text color for header */
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-image {
+    max-width: 70%; /* Adjust the width of the image */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(215, 193, 193, 0.1);
+    margin-top: 20px; /* Add margin to the top */
+}
+
+.dish-images {
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
+    align-items: center; /* Center the image vertically */
+    height: 100vh; /* Set the height of the container (adjust as needed) */
+    background-color: rgba(167, 167, 101, 0.527); /* Set the background color for the container */
+}
+
+.dish-images img {
+    max-width: 100%; /* Ensure the image is responsive */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(135, 89, 89, 0.1);
+}
+
+.recipe {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px; /* Add some spacing between recipe sections */
+    margin-left: 15px;
+    margin-right: 190px;
+    background-color: rgba(82, 163, 129, 0.527);
+}
+
+.recipe img {
+    max-width: 40%; /* Adjust the width of the image */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(179, 42, 42, 0.1);
+    
+}
+
+.recipe-details img {
+    width: 50%;
+    max-width: 100%; /* Ensure the image is responsive */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+}
+
+.recipe-details {
+    width: 100%; /* Adjust the width of the text */
+    margin-left: 5px; /* Add some space between the image and text */
+    background-color: rgba(118, 219, 175, 0.527);
+
+}
+
+.recipe-details h2 {
+    color: #333;
+}
+
+.recipe-details ul,
+.recipe-details ol {
+    margin: 0;
+    padding: 0;
+}
+
+.recipe-details li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+nav {
+    background-color: #1da877; /* Set background color for navigation */
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255); /* Set text color for navigation links */
+}
+
+.contact-form {
+    width: 50%;
+    margin: 20px auto;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ceb3b3;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #333;
+    color: #cd3939;
+    text-align: center;
+    padding: 10px;
+}
